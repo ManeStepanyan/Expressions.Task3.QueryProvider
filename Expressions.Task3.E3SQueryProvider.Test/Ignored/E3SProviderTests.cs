@@ -66,7 +66,7 @@ namespace Expressions.Task3.E3SQueryProvider.Test.Ignored
             }
         }
 
-        [Fact(Skip = "This test is provided to show the general idea of usage.")]
+        [Fact()]
         public void WithProvider()
         {
             var employees = new E3SEntitySet<EmployeeEntity>(searchService.Value);
